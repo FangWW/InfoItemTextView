@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.infoitemtextview.infoitemtextview.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <View style="@style/sty_line_hor"></View>
+
+    <com.itemtextview.InfoItemTextView
+        android:id="@+id/mtv_auth_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:editorable="no_edit"
+        app:exist_icon="no_exist"
+        app:exist_right_text="exist"
+        app:left_text="认证信息"
+        app:left_text_color="@color/nav_bar_darkbgcolor"
+        app:right_text="已认证" />
+
+    <View style="@style/sty_line_hor"></View>
+
+    <com.itemtextview.InfoItemTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:editorable="no_edit"
+        app:exist_icon="no_exist"
+        app:exist_right_text="exist"
+        app:left_text="认证信息"
+        app:left_text_color="@color/nav_bar_darkbgcolor"
+        app:right_text="已认证"
+        app:text_gravity="left" />
+
+    <View style="@style/sty_line_hor"></View>
+
+    <com.itemtextview.InfoItemTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:editorable="no_edit"
+        app:exist_icon="exist"
+        app:exist_right_text="exist"
+        app:left_text="认证信息"
+        app:left_text_color="@color/nav_bar_darkbgcolor"
+        app:right_text="已认证" />
+
+    <View style="@style/sty_line_hor"></View>
+
+
+    <com.itemtextview.InfoItemTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:editorable="no_edit"
+        app:exist_arrow="no_exist"
+        app:exist_icon="exist"
+        app:exist_right_text="exist"
+        app:left_icon="@drawable/icon_cheshanghu"
+        app:left_text="认证信息"
+        app:left_text_color="@color/nav_bar_darkbgcolor"
+        app:right_text="已认证" />
+
+    <View style="@style/sty_line_hor"></View>
+
+    <com.itemtextview.InfoItemTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:editorable="edit"
+        app:exist_icon="exist"
+        app:exist_right_text="exist"
+        app:left_icon="@drawable/icon_cheshanghu"
+        app:left_text="输入名称"
+        app:left_text_color="@color/nav_bar_darkbgcolor"
+        app:right_text="" />
+
+    <View style="@style/sty_line_hor"></View>
+
+    <com.itemtextview.InfoItemTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:editorable="edit"
+        app:exist_arrow="no_exist"
+        app:exist_icon="no_exist"
+        app:exist_right_text="exist"
+        app:left_text="输入名称"
+        app:left_text_color="@color/nav_bar_darkbgcolor"
+        app:right_text=""
+        app:tipText="请输入你的大名" />
+
+    <View style="@style/sty_line_hor"></View>
+
+    <com.itemtextview.InfoItemTextView
+        android:id="@+id/mtv_auth_information2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:editorable="edit"
+        app:exist_arrow="no_exist"
+        app:exist_icon="exist"
+        app:exist_right_text="exist"
+        app:left_icon="@drawable/icon_cheshanghu"
+        app:left_text="输入名称"
+        app:left_text_color="@color/nav_bar_darkbgcolor"
+        app:right_text=""
+        app:text_gravity="left"
+        app:tipText="请输入你的大名" />
+
+    <View style="@style/sty_line_hor"></View>
+</LinearLayout>

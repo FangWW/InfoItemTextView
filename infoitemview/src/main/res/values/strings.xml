@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">InfoItemTextView</string>
+    <string name="login_only_can_input">qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM1234567890</string>
+    <string name="login_only_can_number">1234567890</string>
+</resources>
