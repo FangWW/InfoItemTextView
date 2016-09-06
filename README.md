@@ -1,5 +1,5 @@
 # InfoItemTextView
-item快速布局设置空间 例如：我的，设置，关于里面的item
+item快速布局设置控件 例如：我的，设置，关于里面的item
 
 ![github](https://raw.githubusercontent.com/FangWW/InfoItemTextView/master/device-2016-09-06-185828.png "github")
       
