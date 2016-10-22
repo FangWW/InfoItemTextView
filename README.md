@@ -22,6 +22,6 @@ item快速布局设置控件 例如：我的，设置，关于里面的item
        <View style="@style/sty_line_hor"></View>
 
 
-![github](https://raw.githubusercontent.com/FangWW/InfoItemTextView/master/device-2016-09-06-185828.png "github")
 ![github](https://raw.githubusercontent.com/FangWW/InfoItemTextView/master/device-2016-10-22-152838.png "github")
+![github](https://raw.githubusercontent.com/FangWW/InfoItemTextView/master/device-2016-09-06-185828.png "github")
       
