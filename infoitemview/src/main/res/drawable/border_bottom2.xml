@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="#FFFFFF"/>
+            <stroke
+                android:width="1px"
+                android:color="@color/border_color"/>
+        </shape>
+    </item>
+
+    <item
+        android:bottom="1px">
+        <shape>
+            <solid android:color="#FFFFFF"/>
+            <stroke
+                android:width="1px"
+                android:color="#ffffffff"/>
+        </shape>
+    </item>
+</layer-list>
