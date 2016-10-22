@@ -17,13 +17,25 @@
                   android:paddingRight="@dimen/activity_horizontal_margin"
                   android:paddingTop="@dimen/activity_vertical_margin"
                   tools:context="com.infoitemtextview.infoitemtextview.MainActivity">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:background="@drawable/border_bottom2"
+                      android:orientation="vertical">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:background="@drawable/border_bottom2"
-            android:gravity="center_vertical"
-            android:text="设置或个人信息页面自定义itme 和 画底部细线drawable"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/border_bottom2"
+                android:gravity="center_vertical"
+                android:text="设置或个人信息页面自定义itme"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="画底部细线drawable"/>
+
+        </LinearLayout>
 
 
         <com.itemtextview.InfoItemTextView
